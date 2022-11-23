@@ -4,7 +4,7 @@
 |#bits|1|7|24|
 |:-----|:-:|:-:|:--:|
 |**Class A**|0|Network#|Host#|
->Network # ranges from **1-126**\
+>Network # ranges from **1-126**<br>
 Host # **16,777,214**
 
 * <span style="color:orange">Class B</span>
@@ -12,7 +12,7 @@ Host # **16,777,214**
 |#bits|1|1|14|24|
 |:-----|:-:|:-:|:--:|:--:|
 |**Class B**|1|0|Network#|Host#|
->Network # ranges from **128.1-191.255**\
+>Network # ranges from **128.1-191.255**<br>
 Host # **65,534**
 
 * <span style="color:orange">Class C</span>
@@ -20,7 +20,8 @@ Host # **65,534**
 |#bits|1|1|1|21|8|
 |:-----|:-:|:-:|:-:|:--:|:--:|
 |**Class C**|1|1|0|Network#|Host#|
->Network # ranges from **192.0.0 - 223.255.255**\
+>Network # ranges from **192.0.0 - 223.255.255**<br>
 Host # **254**
 
-  
+#  Spanning Tree Protocol **STP** 
+* Coping mechanism for frame looping(**Broadcast storm**)
